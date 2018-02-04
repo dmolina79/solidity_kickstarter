@@ -7,8 +7,8 @@
     "compile-contract": "node ./ethereum/compile.js",
     "test": "mocha",
     "dev": "node ./server.js",
-	  "start": "next start -p $PORT",
-	  "build": "next build",
+    "start": "next start -p $PORT",
+    "build": "next build",
     "heroku-postbuild": "npm run build"
   },
   "engines": {

@@ -6,17 +6,17 @@ export default () => {
     return (
         <Container textAlign='center' style={{marginTop:10}}>
             <Divider></Divider>
-            <a href="mailto:contacto@nacioncripto.com" style={{padding: 5}}>
+            <a href="mailto:hello@coralbytes.com" style={{padding: 5}}>
                 <Label>
                     <Icon name="mail"/>
                     Contact Us
                 </Label>
             </a>
             
-            <a href="https://nacioncripto.com" target="_blank"  style={{padding: 5}}>
+            <a href="https://coralbytes.com" target="_blank"  style={{padding: 5}}>
                 <Label>
                     <Icon name="home"/>
-                    NacionCripto.com
+                    CoralBytes.com
                 </Label>
             </a>
         </Container>
