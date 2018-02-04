@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha",
-    "dev": "node server.js",
-    "start": "node server.js",
-    "heroku-postbuild": "next build",
     "compile-contract": "node ./ethereum/compile.js",
-    "dev": "next dev"
+    "test": "mocha",
+    "dev": "node ./server.js",
+	  "start": "next start -p $PORT",
+	  "build": "next build",
+    "heroku-postbuild": "npm run build"
+  },
+  "engines": {
+    "node": "8.4.0",
+    "npm": "5.3.0"
   },
   "repository": {
     "type": "git",
